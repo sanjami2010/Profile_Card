@@ -1,0 +1,62 @@
+
+.wrapper{
+  width: 600px;
+  height: 700px;
+  font-family: 'Karla', sans-serif;
+  background-color: hsl(179, 62%, 43%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .gridi{
+    width:50%;
+    height:40%;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
+    grid-template-areas:
+         "a a"
+         "b b"
+         "c c";
+   }
+  .one{
+    grid-area: a;
+    padding-left: 20px;
+    background-image: url("../images/bg-pattern-card.svg");
+    position: relative;
+    }
+  p{
+    font-size: 16px;
+    }
+  p.gry{
+    color: gainsboro;
+    font-size: 14px;
+    padding-right: 20px;
+  }
+  .two{
+    grid-area: b;
+    padding: 20px;
+    text-align: center;
+    }
+
+  .three{
+    grid-area: c;
+    border: 1px solid grey;
+    padding: 20px;
+    }
+  
+  img{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+   }
+   .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    font-size: 12px;
+    }
