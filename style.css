@@ -42,7 +42,7 @@
 
   .three{
     grid-area: c;
-    border: 1px solid grey;
+    border-top: 1px solid grey;
     padding: 20px;
     }
   
